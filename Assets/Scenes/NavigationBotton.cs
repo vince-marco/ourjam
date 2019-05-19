@@ -20,4 +20,10 @@ public class NavigationBotton : MonoBehaviour
         Debug.Log("sceneBuildIndex to load: " + sceneName);
         SceneManager.LoadScene(sceneName);
     }
+    public void ApplicationQuit()
+    {
+        Debug.Log("Application Quit");
+        //Only works on built version
+        Application.Quit();
+    }
 }
