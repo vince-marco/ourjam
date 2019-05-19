@@ -10,3 +10,21 @@ Screens Include
 -	Game Over
 
 
+Features 
+-
+
+* Workable Menu Navigation
+
+* Capsule Character w/ Movement
+
+* Terain World
+
+* Interactable NPC
+
+* Stat Screen
+
+* Fightable Enemy
+
+Game Concept: 3D RPG 
+-
+
