@@ -265,7 +265,7 @@ MonoBehaviour:
   speed: 5
   turnspeed: 3
   jumpSpeed: 50
-  myRigidbody: {fileID: 0}
+  disttoGround: 1
 --- !u!1 &24962315
 GameObject:
   m_ObjectHideFlags: 0
