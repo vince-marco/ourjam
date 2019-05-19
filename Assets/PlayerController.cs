@@ -21,27 +21,30 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     { 
+        //Jumping
         if (Input.GetKeyDown(KeyCode.Space))
         {
             myRigidbody.AddForce(0,jumpSpeed*100,0);
         }
+        //Moving Forwards
         if (Input.GetKey(KeyCode.W))
         {
             gameObject.transform.Translate(0, 0, 1 * speed * Time.deltaTime);
         }
+        //Backpedaling
         if (Input.GetKey(KeyCode.S))
         {
             gameObject.transform.Translate(0, 0, -1 * speed * Time.deltaTime);
         }
-
+        //Turn Right
         if (Input.GetKey(KeyCode.D))
         {
             gameObject.transform.Rotate(0, turnspeed, 0);
         }
+        //Turn Left
         if (Input.GetKey(KeyCode.A))
         {
             gameObject.transform.Rotate(0, -turnspeed, 0);
         }
-
     }
 }

@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 1020687946}
   - component: {fileID: 1020687945}
   - component: {fileID: 1020687948}
+  - component: {fileID: 1020687949}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -373,7 +374,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1020687948}
+      - m_Target: {fileID: 1020687949}
         m_MethodName: Loadscene
         m_Mode: 5
         m_Arguments:
@@ -433,6 +434,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 736e067c503d547729690542420af9cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1020687949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020687943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87605c547fc764019bbbe87545e3104e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1186559852

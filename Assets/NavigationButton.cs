@@ -2,19 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class NavigationBotton : MonoBehaviour
+
+public class NavigationButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    //Function used by buttons to load the next scene
     public void Loadscene(string sceneName)
     {
         Debug.Log("sceneBuildIndex to load: " + sceneName);
